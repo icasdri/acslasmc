@@ -1,4 +1,4 @@
-# acslasmc -- ACSL Assembly to C compiler
+# acslasmc – ACSL Assembly to C compiler
 **acslasmc** is a direct-translation cross-compiler that compiles code written in the fictional ACSL Assembly Language to ANSI C which can then be legitimately compiled to runnable code by a C compiler such as *gcc* or *clang*.
 
 ## Usage
