@@ -7,6 +7,17 @@
 
 Compiles ACSL Assembly code found in the file SOURCE and places the resultant C code into OUTPUT. If OUTPUT is not specified, it defaults to "SOURCE.out.c"
 
+## Building
+**acslasmc** can be built like any other [Cargo](http://doc.crates.io/) crate.
+
+For debug builds, simply run:
+
+    cargo build
+
+And for release builds:
+
+    cargo build --release
+
 ## ACSL Assembly Language
 The ACSL Assembly Language is a fictional assembly language used in the "short problems" section of the [American Computer Science League](http://acsl.org/) series of contests. Below is a condensed description of the language.
 
